@@ -10,6 +10,7 @@ class Elevator::Model::Forge {
     use DateTime;
     use JSON::XS;
     use Digest::MD5;
+    use SQL::Abstract;
     use DateTime::Format::Strptime;
 
     # this might need overriding if your database doesn't like these formats    
